@@ -2,7 +2,7 @@
 # Predicting Charlotte Traffic Stop Outcomes
 
 ## Data Source
-Data is available at the [Charlotte Data Portal](https://data.charlottenc.gov/datasets/officer-traffic-stops/explore)
+Data is available at the [Charlotte Data Portal](https://data.charlottenc.gov/datasets/officer-traffic-stops/explore).
 
 ## Research Questions
 1. Which of the **general attributes** correlate the most with the **outcome of the traffic stop** (i.e. search conducted, verbal warning, written warning, citation issued, no action, arrest).
@@ -26,7 +26,7 @@ Data is available at the [Charlotte Data Portal](https://data.charlottenc.gov/da
 - Parameter tuning
 ### Visualize/Understand output
 ### (Potential) Create Streamlit App
-If we do create a streamlit app, describe and link [here](google.com)
+If we do create a streamlit app, describe and link [here](google.com).
 
 ## Findings
 Once finished, findings go here.
