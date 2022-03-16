@@ -25,8 +25,11 @@ Data is available at the [Charlotte Data Portal](https://data.charlottenc.gov/da
 - Logistic regression
 - Parameter tuning
 ### Visualize/Understand output
-### (Potential) Create Streamlit 
-### Final report
+### (Potential) Create Streamlit App
+If we do create a streamlit app, describe and link [here](google.com)
+
+## Findings
+Once finished, findings go here.
 
 ## Import Endnotes
 We realize that by analyzing this dataset, we could shed light on a potentially controversial topic, that is, how the race/ethnicity/gender of the driver/officier can help to predict the outcome of a traffic stop. 
