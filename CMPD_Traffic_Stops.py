@@ -6,7 +6,7 @@ import seaborn as sns
 from st_btn_select import st_btn_select
 import datetime as dt
 
-stops = pd.read_csv("stops_2020_trimmed (new).csv")
+stops = pd.read_csv("stops_2020_trimmed.csv")
 isinstance(stops['Month_of_Stop'], dt.date) # False
 stops['Month_of_Stop'] = stops['Month_of_Stop'].astype('datetime64[ns]')
 stops['Month_of_Stop'] = pd.to_datetime(stops['Month_of_Stop'], format='%y%m%d')
