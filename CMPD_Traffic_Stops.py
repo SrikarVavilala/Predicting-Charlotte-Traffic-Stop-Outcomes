@@ -115,13 +115,14 @@ if page == 'Drivers':
         plot2 = data_2.groupby(['Result_of_Stop', 
                                 'Was_a_Search_Conducted']).size().reset_index().pivot(columns='Result_of_Stop', 
                                                                                     index='Was_a_Search_Conducted', values=0).plot(kind='bar', stacked=True,color=outcomes)
+        plot2.set_ylabel('Count of Stops')
     else:
         plot2= pd.crosstab(data_2['Was_a_Search_Conducted'], data_2['Result_of_Stop']).apply(lambda r: r/r.sum()*100, axis=1)
         plot2 = plot2.plot.bar(figsize=(10,10), stacked=True, rot=0,color=outcomes)
+        plot2.set_ylabel('Percent of Stops')
         
     plot2.set_title("Result of Stop by 'Was a Search Conducted'")
     plot2.set_xlabel("Was a Search Conducted")
-    plot2.set_ylabel('Count of Stops')
     plot2.set_xticklabels(['Yes','No'])
     plot2.tick_params(axis='x', rotation=0)
     st.pyplot()
