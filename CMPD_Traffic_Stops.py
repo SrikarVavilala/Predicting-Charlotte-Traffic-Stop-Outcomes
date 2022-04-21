@@ -19,7 +19,7 @@ page = st_btn_select(
   # The different pages
   ('Home Page','Drivers', 'CMPD Divisions & Officers'),
   # Enable navbar
-  nav=True
+  nav=False
 )
 
 # Display the right things according to the page
